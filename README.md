@@ -1,4 +1,4 @@
-![logo_pink](https://github.com/user-attachments/assets/9aae5984-b95a-4da6-aff6-47f93b64314c)
+![logo_pink (Benutzerdefiniert)](https://github.com/user-attachments/assets/4f7c9423-6d77-4514-9e1c-42fd138aeeaf)
 
 # EMMA
 
