@@ -51,10 +51,10 @@ banned = ""
 
 library(twitteR)
 if (tweet == T) {
-  try(setup_twitter_oauth(consumer_key = "qMmV7v3GTFI5stlFIxVFTRQDK",
-                          access_token = "1085578422661926917-9kPmt4084L0twNHPcVupwlZ7ROaugf",
-                          consumer_secret = "pFKS6arbpKbXNirQ1FqnNYUhpxj1sd8zbbjtxZwaHxO4yPMMxn",
-                          access_secret = "4EWXvvPveu0qlX5xCM5yWTbPORZ0LxEO1BrMIBCtlSpwJ"))
+  try(setup_twitter_oauth(consumer_key = "",
+                          access_token = "-",
+                          consumer_secret = "",
+                          access_secret = ""))
 }
 
 if (tweet == T) { try(updateStatus(paste0("############ STARTING at",  format(Sys.time(), "%X"), " ############"))) }
@@ -62,10 +62,10 @@ if (tweet == T) { try(updateStatus(paste0("############ STARTING at",  format(Sy
 
 
 con <- dbConnect(PostgreSQL(),
-                 dbname = "emma_db", user = "postgres",
-                 #host = "195.128.100.116",
-                 host = "localhost",
-                 password = "internet1893"
+                 dbname = "", user = "",
+                 #host = "",
+                 host = "",
+                 password = ""
 )
 
 
