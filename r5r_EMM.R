@@ -35,10 +35,10 @@ jgc()
 # connect to database on netcup server
 
 con <- dbConnect(PostgreSQL(),
-                 dbname = "emma_db", user = "postgres",
-                 #host = "195.128.100.116",
-                 host = "localhost",
-                 password = "internet1893"
+                 dbname = "", user = "",
+                 #host = "",
+                 host = "",
+                 password = ""
 )
 
 
