@@ -55,8 +55,8 @@ if (is.data.frame(oepnv$shapes_df)) {
   shapes %>% filter(between(shape_pt_lon, bbox[1], bbox[3]) & between(shape_pt_lat, bbox[2], bbox[4]) ) -> shapes }  
 
 
-# change calendar dates to make the analysis work until 2021 (loosing some accuracy here!)
-calendar %>% mutate(start_date = "20200101") %>%  mutate(end_date = "20231231") -> calendar
+# change calendar dates to make the analysis work until 2025 (loosing some accuracy here!)
+calendar %>% mutate(start_date = "20200101") %>%  mutate(end_date = "20251231") -> calendar
 
 # fix comma issue
 agency$agency_name <-  str_replace(agency$agency_name, pattern = ",", replacement = "; ")
